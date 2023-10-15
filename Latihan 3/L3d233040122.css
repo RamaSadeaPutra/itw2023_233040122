@@ -1,0 +1,39 @@
+*{
+    font-family: georgia;       
+}
+
+body{
+    background-image: url('background.png');
+    background-repeat: no-repeat;
+    background-size:4000px 300px; 
+}  
+.mon{
+    margin-top: 90px;
+}
+
+
+h1{
+    font-family: comic sans ms;
+    color: darkblue;
+    font-size: 60px;
+    
+}
+h4{
+    text-align: center;
+    font-style: italic;
+}
+p{
+    text-align: justify;
+}
+
+#fc{
+    color: yellow;
+    text-align: center;
+}
+#nama:hover{
+    color: brown;
+}
+#lo:hover{
+    background-color: blue;
+    color: aliceblue;
+}

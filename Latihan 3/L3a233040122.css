@@ -1,0 +1,19 @@
+*{
+    font-family: georgia;    
+    background-color: aqua;
+}
+.mon{
+    margin-top: 90px;
+}
+h1{
+    font-family: comic sans ms;
+    color: darkblue;
+    font-size: 60px;
+}
+h4{
+    float: right;
+    font-style: italic;
+}
+p{
+    text-align: justify;
+}
