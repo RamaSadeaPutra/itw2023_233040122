@@ -1,0 +1,162 @@
+
+body{
+    font: 10px/20px arial;
+    background-color: #eaeaeaea;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(img/1326071.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.containerr{
+  border-radius: 20px 20px 30px 30px;
+  width: 800px;
+  margin: auto;
+  background-color: whitesmoke;
+  padding-top: 20px;
+}
+
+#hero{
+	
+	overflow: hidden;
+  }
+  #hero figure{
+	position: relative;
+	width: 500%;
+	margin: 0;
+	left: 0;
+	animation: 20s hero infinite;
+  }
+  #hero figure img{
+	width: 20%;
+	float: left;
+  }
+  @keyframes hero {
+	0% {
+	  left: 0;
+	}
+	20%{
+	  left: 0;
+	}
+	25%{
+	  left: -100%;
+	}
+	45%{
+	  left: -100%;
+	}
+	50%{
+	  left: -200%;
+	}
+	70%{
+	  left: -200%;
+	}
+	75%{
+	  left: -300%;
+	}
+	95%{
+	  left: -300%;
+	}
+	100%{
+	  left: -400%;
+	}
+
+  }
+  
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+  }
+   #ko{
+    width: 40px;
+    margin-left: -10px;
+    margin-top: -28px;
+  }
+  
+  .header .judul{
+    font-size: 25px;
+    margin-left: -270px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: black'
+  }
+  .header ul li{
+    list-style: none;
+    display: inline-block;
+    margin-top: 8px;
+    padding: 8px 12px;
+    font-size: 12px;
+  }
+   .header a:hover{
+    color: yellow;
+    text-shadow: 2px #333;
+    
+  }
+  .header li{
+    padding-left: -900px;
+  }
+  .header ul li a{
+    color: black;
+    text-transform: uppercase;
+    transition: .8s;
+    text-decoration: none;
+   
+  }
+
+
+    
+
+.herodua{
+    height: 240px;
+    width: 100%;
+    bottom: 240px;
+    background-image:url(img/1990454.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px -110px;
+    
+}
+.content{
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+#po{
+font-size: 15px;
+}
+
+.content h2{
+    font-size: 25px;
+    font-weight: bold;
+}
+.content .penulis a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+.content .penulis{
+    font-size: 15px;
+    margin-top: -10px;
+  
+}
+.penulis a:hover{
+  color:rgb(240, 240, 29) ;
+  transition: 1s;
+
+}
+
+.content p{
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+.footer{
+    background-color: #333;
+    padding: 25px;
+    border-radius: 0px 0px 20px 20px;
+}
+.footer .copy{
+    color: aliceblue;
+    text-align: center;
+    font-size: 12px;
+}

@@ -1,0 +1,73 @@
+body{
+    font: 10px/20px arial;
+    background-color: #eaeaeaea;
+}
+.container{
+    width: 800px;
+    margin: auto;
+    background-color: whitesmoke;
+    padding-top: 20px;
+}
+
+.header .judul{
+    font-size: 30px;
+    margin-left: 25px;
+    
+    
+}
+.header ul li{
+
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: -15px;
+   
+}
+.header a{
+    color: salmon;
+    font-size: 15px;
+  
+    
+}
+
+a:hover{
+    color: aqua;
+    background-color: black;
+}
+.hero{
+    
+    height: 280px;
+    background-image: url(img/bg2.jpg);
+    background-size: cover;
+    background-position: 0 -150px;
+    border-top: 5px solid salmon;
+    border-bottom: 5px solid lightskyblue;
+}
+.content{
+    padding: 20px;
+}
+
+.content h2{
+    font-size: 20px;
+    font-weight: bold;
+}
+.content .penulis a{
+    color: salmon;
+    text-decoration: none;
+}
+.content .penulis{
+    font-size: 13px;
+    margin-top: -10px;
+}
+.content p{
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+.footer{
+    background-color: #333;
+    padding: 20px;
+}
+.footer .copy{
+    color: aliceblue;
+    text-align: center;
+    font-size: 12px;
+}
